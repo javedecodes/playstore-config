@@ -9,3 +9,11 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka
+
+features:
+  registration: true
+  login: true
+  search: true   # (Sprint 2)
+  review: true   # (Sprint 2)
+  updateApp: true # (Sprint 2)
+
